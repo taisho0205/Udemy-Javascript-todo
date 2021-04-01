@@ -21,7 +21,7 @@ const createIncompleteList = (text) => {
 
   // liタグ生成
   const li = document.createElement("li");
-  li.innerText = Text;
+  li.innerText = text;
 
   //button(完了)タグ生成
   const completeButton = document.createElement("button");
